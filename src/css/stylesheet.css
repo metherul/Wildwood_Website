@@ -1,0 +1,465 @@
+html 
+{
+    font-family: 'PT Serif', serif;
+
+}
+
+h1 
+{
+	font-size: 80px;
+	color: oldlace;
+	
+	text-align: center;
+	text-shadow: 1px 1px 7px rgba(99,99,99,0.3);
+	font-weight: normal;
+}
+
+body 
+{
+	background-color: #333333;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+}
+
+.content {
+	min-height: 100%;
+	position: relative;
+
+}
+
+.header {
+	padding: 0;
+	position: fixed;
+	height: 100px;
+
+}
+
+.body {
+	padding: 1px;
+	padding-bottom: 30px;	
+
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 25px;
+	background: #333333;
+	color: oldlace;
+	text-align: center;	
+
+}
+
+.navbar {
+    position: fixed;
+	border: 1px solid black;
+	/*border-width: 1px 0;*/
+	list-style: none;
+    width: 100%;
+	margin: auto;
+    margin-top: -60px;
+	padding: 0;
+	text-align: center;
+	background: #333333;
+	
+}
+
+.navbar li{
+	display: inline;
+	font-size: 30px;
+	
+}
+
+.navbar a{
+	display: inline-block;
+	padding: 15px;
+	color: oldlace;
+}
+
+/* Link styling */
+
+.navbar a:link
+{
+    text-decoration: none;
+
+}
+
+h3 {
+	font-size: 45px;
+	color: #996600;
+	
+	text-align: center;
+	text-shadow: 1px 1px 7px rgba(99,99,99,0.3);
+	font-weight: normal;
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	border: 1px solid black;
+	border-width: 1px 0;
+	padding-bottom: 10px;
+
+}
+
+div.img {
+	margin: 30px;
+	margin-bottom: 50px;
+	float: left;
+	width: 80px;
+	padding: 2px 5px;
+
+}
+
+div.img img 
+{ 
+	/*width: 100%;
+	height: 300px;*/
+
+}
+
+div.desc 
+{
+	padding: 15px;
+	text-align: center;
+	
+	color: oldlace;
+
+}
+
+div.search 
+{
+	width: 500px;
+	margin: 0 auto;
+	
+}
+
+.rounded 
+{
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+input[type=text]
+{
+	color: black;
+
+}
+
+input[type=button], input[type=button]:hover 
+{
+	position:relative; 
+	left:-6px;
+	border:1px solid oldlace;
+	background: #e4f1f9; /* Old browsers */
+	background: -moz-linear-gradient(top, #e4f1f9 0%, #d5e7f3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f1f9), color-stop(100%,#d5e7f3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* IE10+ */
+	background: linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f1f9', endColorstr='#d5e7f3',GradientType=0 ); /* IE6-9 */
+	color: black;
+	cursor: pointer;
+	
+}
+
+.lighter, .light, .dark 
+{
+	width: 95%;
+	height: 50px;
+	padding: 20px 15px;
+
+}
+
+.light
+{
+	background: url('./images/light_grey.jpg');
+
+}
+
+.light input[type=text]
+{
+	border: 1px solid #acb1b7;
+	background-color: #fcfcfc;
+
+}
+
+p 
+{
+	font-size: 25px;
+	color: oldlace;
+	
+	text-align: center;
+	text-shadow: 1px 1px 7px rgba(99,99,99,0.3);
+	font-weight: normal;
+	border: 1px solid black;
+	width: 1000px;
+	margin: auto;
+    margin-top: -70px;
+	background-color: #333333;
+	
+	border-style: none;
+	
+}
+
+.breakall narrow 
+{
+	font-size: 25px;
+	color: black;
+	
+	text-align: center;
+	text-shadow: 1px 1px 7px rgba(99,99,99,0.3);
+	font-weight: normal;
+	width: 800px;
+	margin: auto;
+	text-indent: length 50%;
+	
+}
+
+h4 
+{
+	font-size: 25px;
+	color: #996600;
+	
+	text-align: center;
+	text-shadow: 1px 1px 7px rgba(99,99,99,0.3);
+	font-weight: normal;
+}
+
+img.displayed 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	padding: 1px;
+	
+}
+
+.center
+{
+	margin: auto;
+	width: 60%
+	border: 1px solid black;
+	border-width: 1px 0;
+	padding: 10px;
+	
+}
+
+.btn 
+{
+  /*-webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;*/
+  
+  color: oldlace;
+  font-size: 20px;
+  /*background: #ccc7af;*/
+  padding: 5px 14px 5px 14px;
+  /*border: solid #020f17 1px;*/
+  text-decoration: none;
+
+}
+
+.btn:hover 
+{
+  /*background: #ad8751;
+  background-image: -webkit-linear-gradient(top, #ad8751, #ad8751);
+  background-image: -moz-linear-gradient(top, #ad8751, #ad8751);
+  background-image: -ms-linear-gradient(top, #ad8751, #ad8751);
+  background-image: -o-linear-gradient(top, #ad8751, #ad8751);
+  background-image: linear-gradient(to bottom, #ad8751, #ad8751);*/
+  text-decoration: none;
+
+}
+
+div.video 
+{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 80px;
+	padding: 2px 5px;
+	margin-bottom:200px;
+
+}
+
+.space 
+{
+	height: 100px;
+
+}
+
+form 
+{
+	margin: 0 auto;
+	width: 400px;
+	padding: 1em;
+	
+	border-radius: 1em;
+
+}
+
+form div + div 
+{
+	margin-top: 1em;
+
+}
+ 
+label 
+{
+	display: inline-block;
+	width: 90px;
+	text-align: right;
+	
+	color: oldlace;
+
+}
+
+input, textarea 
+{
+	
+	font-size: 1em;
+	width: 300px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #999;
+
+}
+
+input:focus, textarea:focus 
+{
+	border-color: #000;
+
+}
+
+textarea 
+{
+	vertical-align: top:
+	height: 5em;
+	resize: vertical;
+
+}
+
+.button 
+{
+	padding-left: 90px;
+
+}
+
+button 
+{
+	margin-left: .5em;
+	
+}
+
+div.top 
+{
+	background-color: #333333;
+
+}
+
+.top h1
+{
+    padding-top: 30px;
+}
+
+.top h3 
+{
+    margin-top: -50px;
+}
+
+.lightbox img 
+{
+	display: none;
+	
+}
+
+img 
+{
+	padding: 1px;
+	-webkit-box-shadow: 0 0 .5px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 0 .5px rgba(0,0,0,.4);
+	box-shadow: 0 0 .5px rgba(0,0,0,.4);
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+
+}
+
+.lightbox:target img
+{
+	display: inline-block;
+
+}
+
+.lightbox
+{
+	z-index: 9999;
+	position: fixed;
+	
+}
+
+.lightbox img
+{
+	margin-top: 200px;
+	padding: 2px 2px 2px 2px;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
+
+}
+
+.lightbox 
+{
+	background: rgba(0,0,0,0.7);
+
+}
+
+.lightbox:target 
+{
+	width: 500px;
+	height: 500px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+}
+
+.lightbox 
+{
+	font-size: 1.2em;
+	text-align: center;
+	
+}
+
+a.lightbox 
+{
+	color: oldlace;
+	text-decoration: none;
+	font-size: 1em;
+
+}
+
+a.lightbox:after 
+{
+	content: attr(title);
+	display: block;
+	margin-top: 10px;
+	
+}
+
+.div img1
+{
+	border: 1px solid oldlace;
+
+}
+
+
+
